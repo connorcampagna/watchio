@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+.env.*
+.env.local
+
+# next.js
+.next/
+out/
+
+# build output
+dist/
+build/
+
+# misc
+.DS_Store
+*.pem
+*.log
+*.tsbuildinfo
+next-env.d.ts
+package-lock.json
+
+# supabase local
+.supabase
+
+# vercel
+.vercel
+
+# excluded from this repo
+server/
+supabase/
